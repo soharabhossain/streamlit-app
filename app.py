@@ -11,7 +11,6 @@ sepal_width = st.slider("Sepal Width ",0.1,5.8)
 petal_length = st.slider("Petal Length ",0.1,5.8)
 petal_width = st.slider("Petal Width ",0.1,5.8)
 
-
 def predict():
     float_features = [float(x) for x in [sepal_length, sepal_width, petal_length, petal_width]]
     final_features = [np.array(float_features)]
